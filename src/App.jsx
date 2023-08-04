@@ -1,3 +1,6 @@
+import styles from "./productos.modules.css"
+
+
 const produtos = [
   {
     nome: "Macbook Air 13 Chip M1 256gb",
@@ -24,27 +27,27 @@ const produtos = [
 function App() {
   return (
     <div>
-      <h1>Produtos</h1>
-
-      <ul>
-        <li>
-          <h2>{produtos[0].nome}</h2>
-          <img src={produtos[0].image} />
-          <h3>{produtos[0].preco}</h3>
-        </li>
-
-        <li>
-          <h2>{produtos[1].nome}</h2>
-          <img src={produtos[1].image} />
-          <h3>{produtos[1].preco}</h3>
-        </li>
-
-        <li>
-          <h2>{produtos[2].nome}</h2>
-          <img src={produtos[2].image} />
-          <h3>{produtos[2].preco}</h3>
-        </li>
+      <header>
+          <h1>Produtos</h1>
+      </header>
+      <main>
+      <ul className="menu">
+        {produtos.map((produto, index) => (
+          <li key={index}>
+            <h2 className={styles.subtitulo}>{produto.nome}</h2>
+            <div>
+              <img 
+               src={produto.image} 
+               alt={produto.nome} 
+               width="155"
+               height="180"
+               />
+            </div>
+            <h3 className={styles.precio} >{produto.preco}</h3>
+          </li>
+        ))}
       </ul>
+      </main>
     </div>
   );
 }
