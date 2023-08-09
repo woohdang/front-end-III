@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import cincoDeOroImage from './assets/5.png'; // Cambia la ruta a la imagen descargada
+import cincoDeOroImage from './assets/5.png'; 
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,7 +8,7 @@ function App() {
   const [nuevosValores, setNuevosValores] = useState([]);
 
   const manejadorDeMensaje = () => {
-    const nuevoValor = Math.floor(Math.random() * 45) + 1; // Generar número aleatorio entre 1 y 45
+    const nuevoValor = Math.floor(Math.random() * 45) + 1; 
     setCount(nuevoValor);
 
     if (nuevoValor !== 0) {
