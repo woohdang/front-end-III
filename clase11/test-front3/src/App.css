@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 25px;
+  margin: 1rem;
+  height:35vh;
+  width: 50vw;
+  background-color: black;
+  border: 1px solid #4d4d4d;
+}
+
+.form button {
+  margin-top: 15px; 
+  padding: 16px; 
+  width: 180px; 
+  margin-bottom: 25px;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #424242;
+  border-radius: 25px;
+  margin: 1rem;
+  background-color: black;
+}
+
+.error{
+  color: red
+}
+
+.campos {
+  height: 60px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 180px;
+
+}
