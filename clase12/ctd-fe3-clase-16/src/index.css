@@ -1,0 +1,178 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #141414;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+nav {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  gap: 5rem; 
+}
+
+.logo{
+  width: 80px;
+  margin-right: 2rem;
+}
+
+nav > a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+nav > a:hover {
+  color: rgb(105, 103, 103);
+}
+
+h1{
+  text-align: center;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+h1:hover{
+  color: rgb(255, 198, 75);
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: 1.5px solid white;
+  width: 300px;
+  height: auto;
+  margin: 1rem;
+  transition: all ease 0.3s;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 25px;
+  
+}
+
+.card:hover{
+  box-shadow: 0px 0px 45px -10px rgba(255, 198, 75, 0.3);
+  border: 0.2px solid white;
+
+}
+
+.card > a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.card > img{
+  height: 150px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.beer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+.beer-card {
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  border-radius: 25px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #141414;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-right: 20px; 
+  align-items: center;
+}
+
+li:last-child {
+  margin-right: 0; 
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: #ffaa00;
+}
+
+.beer-details {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.footer {
+  height: 5rem;
+  display: flex;
+  align-items: rigth;
+  justify-content: flex-end;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+}
+
+.title{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+

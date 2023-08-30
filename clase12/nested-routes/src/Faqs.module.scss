@@ -1,0 +1,22 @@
+.mainFaqs{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+    
+    img{
+    scale: 1.5;
+    }
+    h1 {
+    font-size: 3em;
+    line-height: 1.3;
+    }
+ 
+}
+
+
+
+

@@ -1,0 +1,26 @@
+.mainFaq{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top:55px;
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagencita {
+        scale: 0.6;
+    }
+
+    h1 {
+        font-size: 2em;
+        line-height: 1.3;
+    }
+}
+
+

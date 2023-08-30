@@ -1,0 +1,12 @@
+.navbar{
+    background-color:black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1px;
+    width: 35vw;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
