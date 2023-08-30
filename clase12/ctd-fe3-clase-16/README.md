@@ -1,4 +1,4 @@
-# React + Vite TEST
+# React + Vite BEER STORE
 
 This project resolve BEER STORE APP with React Router - Challenge of the week
 
