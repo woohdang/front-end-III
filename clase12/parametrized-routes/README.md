@@ -3,7 +3,7 @@
 This project resolve SPA APP with React Router - Parametrized Routes
 
 ![capture](https://github.com/woohdang/front-end-III/blob/master/clase12/parametrized-routes/src/images/B.png)
-![capture]()
+![capture](https://github.com/woohdang/front-end-III/blob/master/clase12/parametrized-routes/src/images/D.png)
 ![capture]()
 ![capture]()
 
