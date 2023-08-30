@@ -1,8 +1,10 @@
-# React + Vite
+# React + Vite SPA APP WITH FAQS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project resolve SPA APP with React Router - Parametrized Routes
 
-Currently, two official plugins are available:
+![capture]()
+![capture]()
+![capture]()
+![capture]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
