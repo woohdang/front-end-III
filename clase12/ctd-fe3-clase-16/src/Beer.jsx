@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BeerFinder from './BeerFinder'; 
 import './index.css';
-import styles from './Beer.module.scss'; // Importa el archivo de estilos
+import styles from './Beer.module.scss'; 
 
 const Beer = () => {
   const [beers, setBeers] = useState([]);
